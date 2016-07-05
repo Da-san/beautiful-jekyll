@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Test Dasan!
-published: true
+title: Dasan Site! Wow
+subtitle: Excerpt from Soulshaping by Jeff Brown
+bigimg: /img/path.jpg
 ---
 
 ![404-southpark.jpg]({{site.baseurl}}/img/404-southpark.jpg)
