@@ -1,4 +1,5 @@
 @import url("pygment_highlights.css");
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 
 /* --- General --- */
 
@@ -18,8 +19,9 @@ p a {
   color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;*/
+  font-family: 'Roboto', sans-serif;
 }
 a {
   color: #008AFF;
