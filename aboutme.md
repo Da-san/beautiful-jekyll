@@ -39,6 +39,7 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 >
 
 ### Skill
+<div class="skill-logo">
 ![Drupal](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/drupal.png)
 ![Drush](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/drush.png) 
 ![Wordpress](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/wordpress.png)
@@ -46,4 +47,4 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 ![Compass](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/compass.png)
 ![Git](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/git.png)
 ![Html-css-js](http://www.allwebtutorials.com/wp-content/uploads/2016/04/html5-css-javascript-logos.png)
-
+</div>
