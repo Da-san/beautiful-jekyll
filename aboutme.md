@@ -39,10 +39,10 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 >
 
 ### Skill
-![Drupal](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/drupal.png)
-![Drush](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/drush.png) 
-![Wordpress](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/wordpress.png)
-![Sass](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/sass.png)
-![Compass](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/compass.png)
-![Git](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/git.png)
-![Html-css-js](http://www.allwebtutorials.com/wp-content/uploads/2016/04/html5-css-javascript-logos.png)
+![Drupal](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/drupal.png){: .skill-logo }
+![Drush](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/drush.png){: .skill-logo }
+![Wordpress](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/wordpress.png){: .skill-logo }
+![Sass](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/sass.png){: .skill-logo }
+![Compass](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/compass.png){: .skill-logo }
+![Git](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/git.png){: .skill-logo }
+![Html-css-js](http://www.allwebtutorials.com/wp-content/uploads/2016/04/html5-css-javascript-logos.png){: .skill-logo }
