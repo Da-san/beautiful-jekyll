@@ -124,7 +124,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #1EBBA3;
 }
 
 @media only screen and (min-width: 768px) {
@@ -305,7 +305,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #1EBBA3;
 }
 
 .post-preview .post-title {
@@ -505,8 +505,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #1EBBA3;
+  border: 1px solid #1EBBA3;
 }
 
 .pager {
