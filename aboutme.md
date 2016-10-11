@@ -47,4 +47,5 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 ![Git](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/git.png){: .skill-logo }
 ![Html](https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png){: .skill-logo }
 ![Css](http://jaspreetchahal.org/images/css3.svg){: .skill-logo }
+![Php](https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/php-128.png){: .skill-logo }
 ![Js](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png){: .skill-logo }
