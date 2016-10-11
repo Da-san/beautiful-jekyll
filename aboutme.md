@@ -49,3 +49,4 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 ![Css](http://jaspreetchahal.org/images/css3.svg){: .skill-logo }
 ![Php](https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/php-128.png){: .skill-logo }
 ![Js](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png){: .skill-logo }
+![Jekyll](http://build.prestashop.com/assets/images/2015/04/jekyll.png){: .skill-logo }
