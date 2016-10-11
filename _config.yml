@@ -44,22 +44,22 @@ author:
   facebook: yourname  # eg. daattali
   github: da-san    # eg. daattali
   twitter: dasanblog   # eg. daattali
-  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
+  linkedin: davidesanfilippo  # eg. "pub/dean-attali/8/946/143"
   stackoverflow: yourlink  # eg. "3943160/daattali"
  
 # Select which links to show in the footer
 footer-links-active:
   rss: false
   facebook: false
-  email: false
+  email: true
   twitter: true
   github: true
-  linkedin: false
+  linkedin: true
   stackoverflow: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "davidesanfilippo.it"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "davidesanfilippo.it"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
