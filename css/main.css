@@ -560,6 +560,7 @@ table tr td :last-child {
 }
 
 .skill-logo {
+  height:100px;
   width: 100px;
   margin:10px;
 }
