@@ -51,5 +51,5 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 ![Js](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png){: .skill-logo }
 ![Jekyll](https://www.timble.net/images/stack/vendor/jekyll.png){: .skill-logo }
 ![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/2000px-Boostrap_logo.svg.png){: .skill-logo }
-![Npm](hhttps://media.glassdoor.com/sql/1058449/npm-squarelogo-1442043935395.png){: .skill-logo }
+![Npm](https://media.glassdoor.com/sql/1058449/npm-squarelogo-1442043935395.png){: .skill-logo }
 
