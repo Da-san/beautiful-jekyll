@@ -21,7 +21,7 @@ In questo momento sono Web developer presso [Wellnet](http://www.wellnet.it/)
 ### Certificazioni
 Ho Una certificazione Drupal: Drupal Site Builder 2015.
 
-![badge](http://blog.davidesanfilippo.it/sites/all/themes/noodle/subtheme/img/about/drupalsitebuilding.png)
+![badge](http://davidesanfilippo.it/blog/sites/all/themes/noodle/subtheme/img/about/drupalsitebuilding.png)
 
 >
 > **Eventi a cui ho partecipato:**
