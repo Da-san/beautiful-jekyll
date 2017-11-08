@@ -86,7 +86,6 @@ module.exports = function(grunt) {
           }
         }
       }, 
-
     });
       grunt.loadNpmTasks('grunt-contrib-sass');
 };
@@ -132,7 +131,6 @@ module.exports = function(grunt) {
           tasks: ['sass'],
         }
       } 
-
     });
       grunt.loadNpmTasks('grunt-contrib-sass');
       grunt.loadNpmTasks('grunt-contrib-watch');
