@@ -21,7 +21,7 @@ Dopo aver installato node,js, siamo pronti con il nostro primo progetto, ma come
 Da terminale, entrati nella cartella del progetto, digitare: <br />
 <code>
 npm install -g grunt-cli
-</code>
+</code><br />
 tutto qui! 
 Per controllare che grunt sia stato installato correttamente, nella cartella del progetto, dovrebbe essere comparsa la cartella node_modules che prima non c’era.
 
@@ -39,7 +39,7 @@ Il file <strong>package.json</strong> contiene le informazioni essenziali che se
   }
 }
 </code>
-
+<br />
 In questo file scriveranno automaticamente i plugins che installerai e vengono salvati i numeri di versioni degli stessi.
 
 l’altro file da creare è <strong>Gruntfile.js</strong>.  
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
     });
       grunt.loadNpmTasks('grunt-contrib-sass');
 };
-</code>
+</code><br />
 in poche parole abbiamo detto a grunt che, se scriviamo sul terminale il task <strong>“grunt sass”</strong> lui prenderà il file sass, lo processerà facendolo diventare un file css, nelle cartelle che abbiamo inserito come impostazione.
 salvandolo il file, il nostro primo task è terminato.
 per vederlo in funzione, è necessario scrivere nel terminale, all’interno della cartella del progetto, <strong>“grunt sass”</strong> (dove sass è una label modificabile a vostro piacimento, io per abitudine metto come nome task il nome del plugin) e vedere che automaticamente, il file sass che gli abbiamo dato in pasto, viene processato e viene creato il file css nella cartella che abbiamo indicato.
@@ -110,7 +110,7 @@ watch: {
         }
       } 
 </code>
-
+<br />
 se prendiamo il file grunt.js nella sua totalità, avremo un file così generato: <br />
 <code>
 module.exports = function(grunt) {
@@ -139,7 +139,7 @@ module.exports = function(grunt) {
    
   
 };
-</code> 
+</code> <br />
 come vedete, come primo task abbiamo inserito Sass, che genera il file scss, e come secondo task, abbiamo inserito il plugin Watch,  così, se opportunamente richiamato, gestisce lui tutta la procedura di process dei file Scss.
 
 e questo è tutto!
