@@ -18,17 +18,18 @@ Per funzionare Grunt però, ha bisogno che ci sia installato node.js (per instal
 
 Dopo aver installato node,js, siamo pronti con il nostro primo progetto, ma come utilizzare e installare Grunt?
 
-Da terminale, entrati nella cartella del progetto, digitare: <br /><br />
-<code>
+Da terminale, entrati nella cartella del progetto, digitare: <br />
+{% highlight javascript %}
 npm install -g grunt-cli
-</code><br /><br />
+{% endhighlight %}
+<br />
 tutto qui! 
 Per controllare che grunt sia stato installato correttamente, nella cartella del progetto, dovrebbe essere comparsa la cartella node_modules che prima non c’era.
 
 ora, oltre alla cartella node_modules, per far funzionare correttamente grunt bisogna creare altri due file, <strong>package.json</strong> ed un altro chiamato <strong>Gruntfile.js</strong> e inserirli nella root del progetto.
 
-Il file <strong>package.json</strong> contiene le informazioni essenziali che servono a Grunt per funzionare, come nell’esempio sottostante:<br /><br />
-<code>
+Il file <strong>package.json</strong> contiene le informazioni essenziali che servono a Grunt per funzionare, come nell’esempio sottostante:<br />
+{% highlight javascript %}
 {
   "name": "testgrunt",
   "description": “test grunt",
@@ -38,21 +39,21 @@ Il file <strong>package.json</strong> contiene le informazioni essenziali che se
     "grunt": "^1.0.1",
   }
 }
-</code>
-<br /><br />
+{% endhighlight %}
+<br />
 In questo file scriveranno automaticamente i plugins che installerai e vengono salvati i numeri di versioni degli stessi.
 
 l’altro file da creare è <strong>Gruntfile.js</strong>.  
 in questo file andrai a comandare grunt, inserendo tutte le istruzioni, le opzioni dei plugin stessi.
 
-possiamo incominciare a inserire queste due righe:<br /><br />
-<code>
+possiamo incominciare a inserire queste due righe:<br />
+{% highlight javascript %}
 module.exports = function(grunt) {
   grunt.initConfig({
 	  });
 };
-</code>
-<br /><br />
+{% endhighlight %}
+<br />
 <h2>Plugin</h2>
 
 Grunt per funzionare correttamente ha bisogno dei plugin, essendo solo un contenitore.
@@ -62,16 +63,17 @@ in quest’articolo prendiamo e vediamo come utilizzare due plugin:
 <li><strong>scss</strong> https://github.com/gruntjs/grunt-contrib-watch</li>
 </ul>
 
-di norma, sempre se non specificato all’interno della documentazione del plugin, per installarlo, è necessario andare nella cartella del progetto tramite terminale, e digitare: <br /><br />
-<code>
+di norma, sempre se non specificato all’interno della documentazione del plugin, per installarlo, è necessario andare nella cartella del progetto tramite terminale, e digitare: <br />
+{% highlight javascript %}
 npm install grunt-contrib-sass —save-dev 
-</code><br /><br />
+{% endhighlight %}
+<br />
 (nel caso del plugin sass)
 a questo punto il plugin è installato (puoi verificarlo sempre dalla cartella node_modules e da package.json che nel frattempo si è aggiornato).
 
 Quel che resta da fare è andare nel <strong>Gruntfile.js</strong> ed impostarlo (come è indicato nella documentazione). 
-Per il plugin appena installato, Ad esempio, aggiungiamo:<br /><br />
-<code>
+Per il plugin appena installato, Ad esempio, aggiungiamo:<br /
+{% highlight javascript %}
 module.exports = function(grunt) {
   grunt.initConfig({
     sass: {                              
@@ -87,7 +89,8 @@ module.exports = function(grunt) {
     });
       grunt.loadNpmTasks('grunt-contrib-sass');
 };
-</code><br /><br />
+{% endhighlight %}
+<br />
 in poche parole abbiamo detto a grunt che, se scriviamo sul terminale il task <strong>“grunt sass”</strong> lui prenderà il file sass, lo processerà facendolo diventare un file css, nelle cartelle che abbiamo inserito come impostazione.
 salvandolo il file, il nostro primo task è terminato.
 per vederlo in funzione, è necessario scrivere nel terminale, all’interno della cartella del progetto, <strong>“grunt sass”</strong> (dove sass è una label modificabile a vostro piacimento, io per abitudine metto come nome task il nome del plugin) e vedere che automaticamente, il file sass che gli abbiamo dato in pasto, viene processato e viene creato il file css nella cartella che abbiamo indicato.
@@ -98,17 +101,17 @@ il secondo plugin che voglio mostrarvi è <strong>Watch</strong>, un plugin che 
 
 Come dice il nome, il plugin watch “guarda” il file Scss in attesa di modifiche, e quando le trova, aggancia il task descritto in precedenza (sass) e lo lancia automaticamente.
 
-possiamo inserire questo task molto facilmente, come nell’esempio sotto:<br /><br />
-<code>
+possiamo inserire questo task molto facilmente, come nell’esempio sotto:<br />
+{% highlight javascript %}
 watch: {
         sass: {
           files: ['sass/*.scss'],
           tasks: ['sass'],
         }
       } 
-</code>
-<br /><br />
-se prendiamo il file grunt.js nella sua totalità, avremo un file così generato: <br /><br />
+{% endhighlight %}
+<br />
+se prendiamo il file grunt.js nella sua totalità, avremo un file così generato: <br />
 {% highlight javascript %}
 module.exports = function(grunt) {
   grunt.initConfig({
@@ -133,7 +136,7 @@ module.exports = function(grunt) {
       grunt.loadNpmTasks('grunt-contrib-watch');
 };
 {% endhighlight %}
-<br /><br />
+<br />
 come vedete, come primo task abbiamo inserito Sass, che genera il file scss, e come secondo task, abbiamo inserito il plugin Watch,  così, se opportunamente richiamato, gestisce lui tutta la procedura di process dei file Scss.
 
 e questo è tutto!
