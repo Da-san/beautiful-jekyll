@@ -5,7 +5,7 @@ subtitle:
 bigimg: /img/grunt.jpg
 ---
 
-Scrivo questo articolo per le persone che come me, approcciandosi a questo task runner, vedevano solo un muro insormontabile. Però avendo tempo a disposizione, e dovendo fare dei task con sass, ho voluto sperimentare Grunt e non è per niente difficile!
+Scrivo questo articolo per le persone che come me che, approcciandosi a questo task runner, vedevano solo un muro insormontabile. Però avendo tempo a disposizione, e dovendo fare dei task con sass, ho voluto sperimentare Grunt e non è per niente difficile!
 Partiamo con ordine, mi sono letto la maggior parte della documentazione presente sul sito <br />( https://gruntjs.com) e con questo articolo vedremo come fare i due task più importanti e indispensabili:
 
 <strong>Sass</strong> (preprocessa i file scss generando i file css)
