@@ -73,7 +73,6 @@ Quel che resta da fare è andare nel <strong>Gruntfile.js</strong> ed impostarlo
 Per il plugin appena installato, Ad esempio, aggiungiamo:<br />
 <code>
 module.exports = function(grunt) {
-
   grunt.initConfig({
     sass: {                              
         dist: {                            
@@ -112,7 +111,6 @@ watch: {
 se prendiamo il file grunt.js nella sua totalità, avremo un file così generato: <br />
 <code>
 module.exports = function(grunt) {
-
   grunt.initConfig({
     sass: {                              
         dist: {                            
@@ -133,8 +131,6 @@ module.exports = function(grunt) {
     });
       grunt.loadNpmTasks('grunt-contrib-sass');
       grunt.loadNpmTasks('grunt-contrib-watch');
-   
-  
 };
 </code> <br />
 come vedete, come primo task abbiamo inserito Sass, che genera il file scss, e come secondo task, abbiamo inserito il plugin Watch,  così, se opportunamente richiamato, gestisce lui tutta la procedura di process dei file Scss.
