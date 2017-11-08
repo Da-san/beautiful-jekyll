@@ -109,7 +109,7 @@ watch: {
 </code>
 <br /><br />
 se prendiamo il file grunt.js nella sua totalità, avremo un file così generato: <br /><br />
-<code>
+{% highlight javascript %}
 module.exports = function(grunt) {
   grunt.initConfig({
     sass: {                              
@@ -132,7 +132,8 @@ module.exports = function(grunt) {
       grunt.loadNpmTasks('grunt-contrib-sass');
       grunt.loadNpmTasks('grunt-contrib-watch');
 };
-</code> <br /><br />
+{% endhighlight %}
+<br /><br />
 come vedete, come primo task abbiamo inserito Sass, che genera il file scss, e come secondo task, abbiamo inserito il plugin Watch,  così, se opportunamente richiamato, gestisce lui tutta la procedura di process dei file Scss.
 
 e questo è tutto!
