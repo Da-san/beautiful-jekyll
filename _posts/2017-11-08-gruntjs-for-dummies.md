@@ -48,7 +48,6 @@ in questo file andrai a comandare grunt, inserendo tutte le istruzioni, le opzio
 possiamo incominciare a inserire queste due righe:<br />
 <code>
 module.exports = function(grunt) {
-
   grunt.initConfig({
 	  });
 };
