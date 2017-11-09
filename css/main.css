@@ -66,12 +66,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #1EBBA3;
+  background: #72a9c4;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #1EBBA3;
+  background: #72a9c4;
 }
 img::selection {
   color: white;
@@ -124,7 +124,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #1EBBA3;
+  color: #72a9c4;
 }
 
 @media only screen and (min-width: 768px) {
