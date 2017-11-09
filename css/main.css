@@ -305,7 +305,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #1EBBA3;
+  color: #72a9c4;
 }
 
 .post-preview .post-title {
@@ -505,8 +505,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #1EBBA3;
-  border: 1px solid #1EBBA3;
+  background: #72a9c4;
+  border: 1px solid #72a9c4;
 }
 
 .pager {
