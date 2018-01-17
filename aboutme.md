@@ -4,18 +4,17 @@ title: Chi sono
 subtitle: Due parole su di me
 ---
 
-Ho sempre amato il web, fin da piccolo.
-Ho fatto il mio primo sito web in 2° media e da quel giorno il web design mi ha rapito.
-Dal 2008 ho incominciato ad avvicinarmi a Drupal, ed è stato amore a prima vista!
-Da quel momento ho sempre lavorato in Drupal aumentando le mie conoscenze, ma ho ancora tanto da imparare!
-Nel tempo libero studio giapponese, leggo libri steampunk, cyberpunk e fantasy.
-In questo momento sono Web developer presso [Wellnet](http://www.wellnet.it/)
+Ho sempre amato il web, fin da piccolo.<br />
+Ho fatto il mio primo sito web in 2° media e da quel giorno il web design mi ha rapito.<br />
+Dal 2008 ho incominciato ad avvicinarmi a Drupal, ed è stato amore a prima vista!<br />
+Da quel momento ho sempre lavorato in Drupal aumentando le mie conoscenze, ma ho ancora tanto da imparare!<br />
+Nel tempo libero studio giapponese, leggo libri steampunk, cyberpunk e fantasy.<br />
+In questo momento sono Web developer presso [SIPAL](http://www.sipal.it/)
 
 ### Lavori precedenti:
-
-[Forchets](http://www.forchets.com) 2012-2013<br />
-
-[Plurimedia](http://www.plurimedia.it) 2009-2012<br />
+> - [Wellnet](http://www.wellnet.it/) 2013 - 2017<br />
+> - [Forchets](http://www.forchets.com) 2012-2013<br />
+> - [Plurimedia](http://www.plurimedia.it) 2009-2012<br />
 
 
 ### Certificazioni
@@ -53,5 +52,6 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 ![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/2000px-Boostrap_logo.svg.png){: .skill-logo }
 ![Npm](https://media.glassdoor.com/sql/1058449/npm-squarelogo-1442043935395.png){: .skill-logo }
 ![Github](https://www.dev-metal.com/wp-content/uploads/2013/11/Octocat-100x100.png){: .skill-logo }
-
+<br />
+Per maggiori informazioni, visita il mio <a target="_blank" href="http://blog.davidesanfilippo.it">sito</a>
 
