@@ -5,7 +5,7 @@ subtitle:
 bigimg: /img/chartjs.png
 ---
 
-Se state leggendo questo articolo è perchè come me siete alle prese con Chart.js.
+Se state leggendo questo articolo è perchè come me siete alle prese con <a href="http://www.chartjs.org/">Chart.js</a>.<br />
 Questa famosa Libreria permette di creare dei grafici molto interessanti e funzionali in tempo breve, ma bisogna saperla utilizzare.
 Oggi vi mostro come creare dei tooltip custom.
 Avevo la necessità di rimuovere il valore della fetta del mio grafico a torta, e inserire solo la label, che conteneva delle informazioni che volevo visualizzare in grafico.
