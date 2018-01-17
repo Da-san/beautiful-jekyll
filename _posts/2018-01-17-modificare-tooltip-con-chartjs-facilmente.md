@@ -1,6 +1,6 @@
 ---
 layout: post
-title: chartjs, come modificare facilmente i tooltip
+title: Chartjs, come modificare facilmente i tooltip
 subtitle: 
 bigimg: /img/chartjs.png
 ---
