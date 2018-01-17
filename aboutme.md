@@ -13,7 +13,7 @@ In questo momento sono Web developer presso [SIPAL](http://www.sipal.it/)
 
 ### Lavori precedenti:
 > - [Wellnet](http://www.wellnet.it/) 2013 - 2017<br />
-> - [Forchets](http://www.forchets.com) 2012-2013<br />
+> - <i>Forchets</i> 2012-2013<br />
 > - [Plurimedia](http://www.plurimedia.it) 2009-2012<br />
 
 
