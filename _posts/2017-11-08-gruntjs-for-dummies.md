@@ -13,7 +13,8 @@ Partiamo con ordine, mi sono letto la maggior parte della documentazione present
 <strong>Watch</strong> (crea un task che monitora sempre i file scss generando automaticamente il file css)
 
 <h2>Ma a cosa serve Grunt?</h2>
-In poche parole, esegue dei compiti che gli assegnamo in modo automatizzato installando dei plugin che ci servono, che possono differenziarsi da progetto a progetto. Potremmo aver bisogno del plugin Autoprefixer se abbiamo bisogno di inserirli per i vecchi browser, o aver bisogno di minimizzare i file css una volta compilati.
+In poche parole, esegue dei compiti che gli assegnamo in modo automatizzato installando dei plugin che ci servono, che possono differenziarsi da progetto a progetto.
+Potremmo aver bisogno del plugin Autoprefixer se abbiamo bisogno di inserirli per i vecchi browser, o aver bisogno di minimizzare i file css una volta compilati.
 
 Per funzionare Grunt però, ha bisogno che ci sia installato node.js (per installarlo basta scaricarlo dal sito ufficiale, https://nodejs.org/en/download/ sia per windows che per mac è un normale installer).
 
