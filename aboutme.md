@@ -53,5 +53,5 @@ Ho Una certificazione Drupal: Drupal Site Builder 2015.
 ![Npm](https://media.glassdoor.com/sql/1058449/npm-squarelogo-1442043935395.png){: .skill-logo }
 ![Github](https://www.dev-metal.com/wp-content/uploads/2013/11/Octocat-100x100.png){: .skill-logo }
 <br />
-Per maggiori informazioni, visita il mio <a target="_blank" href="http://blog.davidesanfilippo.it">sito</a>
+Per maggiori informazioni, visita il mio <a target="_blank" href="http://www.davidesanfilippo.it">sito</a>
 
