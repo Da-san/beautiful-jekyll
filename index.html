@@ -34,7 +34,7 @@ subtitle: $ ./blog
       {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     </div>
-
+	</div>
    </article>
   {% endfor %}
 </div>
