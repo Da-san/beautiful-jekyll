@@ -116,6 +116,7 @@ img {
 
 .navbar-brand {
 opacity: 0;
+  font-family: 'Playfair Display', serif;
 }
 
 .navbar-custom .navbar-brand,
