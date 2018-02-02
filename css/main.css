@@ -565,7 +565,7 @@ table tr td :last-child {
   margin:20px;
 }
 
-post-preview:first-child {
+.post-preview:first-child {
 padding: 16px;
 background-color: #f0f0f0;
 }
