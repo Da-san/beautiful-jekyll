@@ -3,6 +3,7 @@ layout: post
 title: Perchè ho scelto Jekyll
 subtitle: Drupal è morto, evviva Drupal!
 bigimg: /img/drupal8.png
+thumbnail: /img/thumb_jekyll.png
 ---
 
 Si, questo è il mio nuovo blog, e si, non è più in Drupal.
