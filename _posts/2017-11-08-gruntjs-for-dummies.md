@@ -3,6 +3,7 @@ layout: post
 title: GRUNT.JS for dummies
 subtitle: 
 bigimg: /img/grunt.jpg
+thumbnail: /img/thumb_grunt.png
 ---
 
 Scrivo questo articolo per le persone che come me che, approcciandosi a questo task runner, vedevano solo un muro insormontabile.
