@@ -3,6 +3,7 @@ layout: post
 title: Chartjs, come modificare facilmente i tooltip
 subtitle: 
 bigimg: /img/chartjs.png
+thumbnail: "thumb_chart.png"
 ---
 
 Se state leggendo questo articolo è perchè come me siete alle prese con <a href="http://www.chartjs.org/">Chart.js</a>.<br />
