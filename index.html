@@ -23,7 +23,7 @@ subtitle: $ ./blog
 	  
 
     <div class="post-entry">
-	    <img style="float: right; width: 50%;" src="{{ post.thumbnail }}" />
+	    <img style="float: right; width: 20%;" src="{{ post.thumbnail }}" />
       {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
     
