@@ -311,6 +311,8 @@ footer .theme-by {
 .post-preview .post-title {
   font-size: 30px;
   margin-top: 0;
+  font-family: 'Playfair Display', serif;
+
 }
 .post-preview .post-subtitle {
   margin: 0;
