@@ -3,7 +3,7 @@ layout: post
 title: Google Maps&#58; Come creare delle mappe custom inserendo marker multipli e modificando le icone.
 subtitle: 
 bigimg: /img/gmap.jpg
-thumbnail: /img/thumb_gmap.png
+thumbnail: /img/thumb_map.png
 ---
 
 Purtroppo GoogleMaps non ha un'interfaccia che permette di creare delle mappe custom, con i marker che vogliamo (i puntatori per intenderci), quanti ne vogliamo e perchè no, modificare anche l'icona per rendere la mappa più gradevole alla vista.
