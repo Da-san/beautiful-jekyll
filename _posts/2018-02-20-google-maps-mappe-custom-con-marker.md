@@ -63,9 +63,8 @@ Infine, dobbiamo inserire questa ultima parte di codice, per modificare le icone
   
       var iconBase = 'http://maps.google.com/mapfiles/ms/micons/';
           var icons = [iconBase + 'red-dot.png',
-                      iconBase + 'ferry.png',
-                      iconBase + 'ferry.png',
-                      iconBase + 'ferry.png'];
+                      iconBase + 'purple-pushpin.png',
+                      iconBase + 'purple-pushpin.png'];
   
   
       for (i = 0; i < locations.length; i++) {  
