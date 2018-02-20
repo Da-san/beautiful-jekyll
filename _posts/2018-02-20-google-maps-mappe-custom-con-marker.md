@@ -118,34 +118,7 @@ e se abbiamo creato la nostra mappa correttamente, dovremmo avere una mappa simi
       
       var infowindow = new google.maps.InfoWindow();
   
-      var marker, i;
-  
-      var iconBase = 'http://maps.google.com/mapfiles/ms/micons/';
-          var icons = [iconBase + 'red-dot.png',
-                      iconBase + 'ferry.png',
-                      iconBase + 'ferry.png',
-                      iconBase + 'ferry.png'];
-  
-  
-      for (i = 0; i < locations.length; i++) {  
-        marker = new google.maps.Marker({
-          position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-          map: map,
-          icon: icons[i]
-        });
-  
-        google.maps.event.addListener(marker, 'click', (function(marker, i) {
-          return function() {
-            infowindow.setContent(locations[i][0]);
-            infowindow.open(map, marker);
-          }
-        })(marker, i));
-      }
-  }
-      </script>
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgGqDyRzOb655kefklsqI12vpj2idk8Es&callback=initialize">
-      </script>
+![maps]({{ "/img/screenmap.jpg" | absolute_url }})
 
 E questo è tutto!
 Come al solito, per qualsiasi dubbio o problemi, non esitate a commentare!
