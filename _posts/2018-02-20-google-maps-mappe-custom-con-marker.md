@@ -98,26 +98,7 @@ Infine, per far funzionare correttamente la mappa, dobbiamo inserire lo script c
 {% endhighlight %}
 
 e se abbiamo creato la nostra mappa correttamente, dovremmo avere una mappa simile a questa: 
-
-   <div id="map"></div>
-      <script>
-         function initialize() {
-      
-  
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 13,
-        center: new google.maps.LatLng(51.50, -0.11),
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      });
-  
-      var locations = [
-        ['<span style="font-weight: bold">London Eye</span>, London', 51.503399, -0.119519],
-        ['<span style="font-weight: bold">Big Ben</span>', 51.510357, -0.116773],
-        ['<span style="font-weight: bold">Buckingham Palace</span>, London', 51.501476, -0.140634],
-      ];
-      
-      var infowindow = new google.maps.InfoWindow();
-  
+   
 ![maps]({{ "/img/screenmap.jpg" | absolute_url }})
 
 E questo è tutto!
