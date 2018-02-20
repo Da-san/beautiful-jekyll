@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Google Maps&#58; Come creare mappe custom con marker multipli.
+title: Google Maps&#58; Come creare mappe custom con marker multipli
 subtitle: 
 bigimg: /img/gmap.jpg
 thumbnail: /img/thumb_map.png
