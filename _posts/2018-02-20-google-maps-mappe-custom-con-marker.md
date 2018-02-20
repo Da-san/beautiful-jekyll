@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Google Maps: Come creare delle mappe custom inserendo marker multipli e modificando le icone.
 subtitle: 
