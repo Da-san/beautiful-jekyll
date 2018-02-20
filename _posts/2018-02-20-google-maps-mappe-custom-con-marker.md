@@ -37,12 +37,12 @@ ma vediamolo nel dettaglio:<br />
 <b>center</b>: qui si decide quale sarà il centro della mappa che andremo a creare, in questo caso noi abbiamo indicato delle cordinate, ma è possibile inserire anche un marker.<br />
 <b>mapTypeId</b>: da questa opzione si decide il tipo di mappa che vogliamo visualizzare
 
-* roadmap: Quella di default,
-* satellite: visualizza la mappa satellitare,
-* hybrid: è un ibrido tra i primi due,
-* terrain: selezionando questa opzione è possibile visualizzare la mappa con uno stile che da risalto ai terreni e alle sue informazioni.
+* <b>roadmap</b>: Quella di default,
+* <b>satellite</b>: visualizza la mappa satellitare,
+* <b>hybrid</b>: è un ibrido tra i primi due,
+* <b>terrain</b>: selezionando questa opzione è possibile visualizzare la mappa con uno stile che da risalto ai terreni e alle sue informazioni.
 
-Ora, dopo che abbiamo deciso come sarà la nostra mappa, possiamo popolare la nostra mappa, inserirendo queste righe di codice:
+Ora che abbiamo deciso come sarà la nostra mappa, possiamo popolarla, inserirendo queste righe di codice:
 
 {% highlight javascript %}
 var locations = [
@@ -52,9 +52,9 @@ var locations = [
       ];
 {% endhighlight %}
 
-questa parte di codice è molto semplice, in questa variabile, passiamo un array contentente le informazioni che ci servono per popolare la mappa, infatti nella prima parte inseriamo il markup e il testo che vogliamo che si visualizzi una volta cliccato sul puntatore, nella seconda parte le coordinate del marker.
+In questa variabile, passiamo un array contentente le informazioni che ci servono per popolare la mappa, infatti nella prima parte inseriamo il markup e il testo che vogliamo che si visualizzi una volta cliccato sul puntatore, nella seconda parte le coordinate del marker.
 
-Infine, dobbiamo inserire questa ultima parte di codice, per modificare le icone e fare un ciclo for per visualizzare correttamente i marker:
+Continuando con la creazione della mappa, inseriamo questa porzione di codice di codice, per modificare le icone e fare un ciclo for per visualizzare correttamente i marker:
 
 {% highlight javascript %}
  var infowindow = new google.maps.InfoWindow();
@@ -84,13 +84,11 @@ Infine, dobbiamo inserire questa ultima parte di codice, per modificare le icone
   }
 {% endhighlight %}
 
-da come si evince dal codice sopra, possiamo dividere la porzione in tre sezioni:
-
-<b>modifica delle icone</b>: la prima porzione di codice modifica con una semplice concatenazioni di variabili e con un array, l'icona che verrà visualizata al posto del puntatore di default (si può trovare l'elenco di tutte le icone cercando velocemente su google).<br />
+<b>Modifica delle icone</b>: la prima porzione di codice modifica con una semplice concatenazioni di variabili e con un array, l'icona che verrà visualizata al posto del puntatore di default (si può trovare l'elenco di tutte le icone cercando velocemente su google).<br />
 <b>Il cliclo for</b>: molto semplicemente con questo ciclo andiamo a stampare tutti i marker andando a prendere le coordinate che abbiamo inserito nel primo array.<br />
-infine, andiamo a intercettare l'<b>evento</b> che al click apre la modale, inserendo tutte le impostazioni per crearla correttamente.
+Infine, andiamo a intercettare l'<b>evento</b> che al click apre la modale, inserendo tutte le impostazioni per crearla correttamente.
 <br />
-Infine, per far funzionare correttamente la mappa, dobbiamo inserire lo script che gestisce le API che abbiamo utilizzato in questo post, lo possiamo inserire infondo alla nostra pagina, così:
+Per ultimo, ma non per importanza, per far funzionare correttamente la mappa, dobbiamo inserire lo script che gestisce le API che abbiamo utilizzato in questo post, lo possiamo inserire infondo alla nostra pagina, così:
 
 {% highlight html %}
  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgGqDyRzOb655kefklsqI12vpj2idk8Es&callback=initialize"> </script>
