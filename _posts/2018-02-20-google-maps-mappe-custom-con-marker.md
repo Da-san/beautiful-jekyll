@@ -31,7 +31,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
 
 {% endhighlight %}
 
-ma vediamolo nel dettaglio:
+ma vediamolo nel dettaglio:<br />
 <b><i>var</i> map</b>: va a prendere la classe che abbiamo dato al nostro div sopra.<br />
 <b>zoom</b>: molto semplicemente, possiamo decidere il livello dello zoom che avrà la nostra mappa, ovviamente più è grande il numero più avrà zoom la mappa.<br />
 <b>center</b>: qui si decide quale sarà il centro della mappa che andremo a creare, in questo caso noi abbiamo indicato delle cordinate, ma è possibile inserire anche un marker.<br />
